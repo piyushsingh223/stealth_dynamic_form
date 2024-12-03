@@ -1,0 +1,110 @@
+/* DynamicForm.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #5c67b1;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+
+  select,
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="password"] {
+  width: calc(100% - 2px);
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+  
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    background-color: #5c67b1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #4753a6;
+  }
+  
+  progress {
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    margin-bottom: 1rem;
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: #5c67b1;
+    border-radius: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+  }
+  
+  th,
+  td {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #5c67b1;
+    color: #fff;
+  }
+  
+  td button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  td button:hover {
+    background-color: #c0392b;
+  }
+  
