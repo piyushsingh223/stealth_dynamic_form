@@ -1,4 +1,9 @@
 Dynamic Form Generator
+
+
+Live Deployed LInk :-   https://clinquant-faun-612953.netlify.app/
+
+
 This is a React project that dynamically generates forms based on the selected type. Users can fill out the form, track their progress using a progress bar, and view submitted data in a table format. The application is styled using CSS and supports CRUD operations for managing submitted data.
 
 Features
